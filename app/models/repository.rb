@@ -4,7 +4,7 @@ class Repository < ApplicationRecord
 
   def fill_readme_content
     self.readme_content_html = Octokit::Client.new.readme full_name, accept: 'application/vnd.github.html'
-    self.readme_content_raw = Faraday.get("https://raw.githubusercontent.com/#{full_name}/master/README.md")
+    self.readme_content_raw = Faraday.get("https://raw.githubusercontent.com/#{full_name}/master/README.md").body
 
     save
   end
