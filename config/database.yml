@@ -1,11 +1,11 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  database: <%= ENV['DATABASE_NAME'] %>
-  username: <%= ENV['DATABASE_USER'] %>
-  password: <%= ENV['DATABASE_PASSWORD'] %>
-  port: <%= ENV['DATABASE_PORT'] || '5432' %>
-  host: <%= ENV['DATABASE_HOST'] %>
+  database: <%= ENV['DATABASE_NAME'] || Rails.application.credentials.database_database %>
+  username: <%= ENV['DATABASE_USERNAME'] || Rails.application.credentials.database_username %>  
+  password: <%= ENV['DATABASE_PASSWORD'] || Rails.application.credentials.database_password %>  
+  host: <%= ENV['DATABASE_HOST'] || Rails.application.credentials.database_host %>  
+  port: <%= ENV['DATABASE_PORT'] || Rails.application.credentials.database_port || '5432' %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
