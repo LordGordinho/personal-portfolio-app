@@ -4,7 +4,7 @@ class Redcarpet::CustomRender < Redcarpet::Render::HTML
   end
 
   def paragraph(text)
-    %(<p class="text-lg font-semibold dark:text-gray-200">#{text}</p>)
+    %(<p class="text-lg font-semibold text-gray-800 dark:text-gray-200">#{text}</p>)
   end
 
   def header(text, header_level)

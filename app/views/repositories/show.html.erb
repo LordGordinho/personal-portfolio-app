@@ -27,7 +27,7 @@
     </div>
     <div class="space-y-5 md:space-y-8">
       <h1 class="text-3xl font-bold md:text-3xl dark:text-white">Resume</h1>
-      <p class="text-lg font-semibold text-gray-200" ><%= @repository.description %></p>
+      <p class="text-lg font-semibold text-gray-800 dark:text-gray-200" ><%= @repository.description %></p>
       <%= raw @markdown.render(@repository.readme_content_raw) %>
     </div>
   </div>
