@@ -2,11 +2,11 @@
 
 Welcome to my online portfolio, where I share some of my web development projects and experiences. This portfolio is built using Ruby on Rails, utilizes the PostgreSQL database, and is hosted on Digital Ocean. The front-end design part was developed with the help of Tailwind CSS.
 
-![imagem cover](https://raw.githubusercontent.com/LordGordinho/jwt-plus-oauth-authentication/master/app/assets/images/image_cover.png)
+![imagem cover](https://raw.githubusercontent.com/LordGordinho/personal-portfolio-app/master/app/assets/images/image_cover.png)
 
-![imagem cover_2](https://raw.githubusercontent.com/LordGordinho/jwt-plus-oauth-authentication/master/app/assets/images/image_cover_2.png)
+![imagem cover_2](https://raw.githubusercontent.com/LordGordinho/personal-portfolio-app/master/app/assets/images/image_cover_2.png)
 
-![imagem cover_3](https://raw.githubusercontent.com/LordGordinho/jwt-plus-oauth-authentication/master/app/assets/images/image_cover_3.png)
+![imagem cover_3](https://raw.githubusercontent.com/LordGordinho/personal-portfolio-app/master/app/assets/images/image_cover_3.png)
 
 ## Overview
 
